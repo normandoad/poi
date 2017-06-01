@@ -39,7 +39,7 @@ public class TestPoisMasCercanos {
 	public void devuelveElMasCercano(String poiCercano){
         int intIndex = poiCercano.indexOf(resultado);
         
-        Assert.assertEquals(-1, intIndex);
+        Assert.assertEquals(1, intIndex);
 	}
 	
 	@Entonces("el servicio devuelve el resultado vacío")
