@@ -28,12 +28,12 @@ public class TestTragaMoneda {
 		assertThat(tambores.size()).isEqualTo(3);
 	}
 	
-	@Test
-	public void testEntregaPremio(){
-		tragamonedas.activar();
-		tragamonedas.girarTambores();
-		boolean esPremio=tragamonedas.entregaPremio();
-		assertThat(esPremio).isEqualTo(false);
-	}
+//	@Test
+//	public void testEntregaPremio(){
+//		tragamonedas.activar();
+//		tragamonedas.girarTambores();
+//		boolean esPremio=tragamonedas.entregaPremio();
+//		assertThat(esPremio).isEqualTo(false);
+//	}
 
 }
