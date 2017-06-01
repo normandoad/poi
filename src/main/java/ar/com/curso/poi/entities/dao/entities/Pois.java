@@ -1,10 +1,12 @@
 package ar.com.curso.poi.entities.dao.entities;
 
+import java.math.BigDecimal;
+
 public class Pois {
 	private Long idPoi;
 	private String descripcion;
-	private Float latitud;
-	private Float longitud;
+	private BigDecimal latitud;
+	private BigDecimal longitud;
 	private Long idServicio;
 	
 	public Long getIdPoi() {
@@ -26,16 +28,16 @@ public class Pois {
 	public void setIdServicio(Long idServicio) {
 		this.idServicio = idServicio;
 	}
-	public Float getLatitud() {
+	public BigDecimal getLatitud() {
 		return latitud;
 	}
-	public void setLatitud(Float latitud) {
+	public void setLatitud(BigDecimal latitud) {
 		this.latitud = latitud;
 	}
-	public Float getLongitud() {
+	public BigDecimal getLongitud() {
 		return longitud;
 	}
-	public void setLongitud(Float longitud) {
+	public void setLongitud(BigDecimal longitud) {
 		this.longitud = longitud;
 	}
 	

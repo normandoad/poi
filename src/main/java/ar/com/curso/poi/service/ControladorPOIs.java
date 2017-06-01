@@ -1,13 +1,13 @@
 package ar.com.curso.poi.service;
 
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
-
 
 import ar.com.curso.poi.entities.dao.entities.Pois;
 
@@ -106,85 +106,85 @@ public class ControladorPOIs {
 		Pois obj1_Poi = new Pois();
 		obj1_Poi.setIdPoi(1l);
 		obj1_Poi.setDescripcion("Las Cuartetas");
-		obj1_Poi.setLatitud(-34.603714f);
-		obj1_Poi.setLongitud(-58.378579f);
+		obj1_Poi.setLatitud(new BigDecimal("-34.603714"));
+		obj1_Poi.setLongitud(new BigDecimal("-58.378579"));
 		obj1_Poi.setIdServicio(1l);
 		
 		Pois obj2_Poi = new Pois();
 		obj2_Poi.setIdPoi(2l);
 		obj2_Poi.setDescripcion("El Cuartito");
-		obj2_Poi.setLatitud(-34.597669f);
-		obj2_Poi.setLongitud(-58.385478f);
+		obj2_Poi.setLatitud(new BigDecimal("-34.597669"));
+		obj2_Poi.setLongitud(new BigDecimal("-58.385478"));
 		obj2_Poi.setIdServicio(1l);
 		
 		Pois obj3_Poi = new Pois();
 		obj3_Poi.setIdPoi(3l);
 		obj3_Poi.setDescripcion("Palacio de la Pizza");
-		obj3_Poi.setLatitud(-34.603069f);
-		obj3_Poi.setLongitud(-58.377335f);
+		obj3_Poi.setLatitud(new BigDecimal("-34.603069"));
+		obj3_Poi.setLongitud(new BigDecimal("-58.377335"));
 		obj3_Poi.setIdServicio(1l);
 		
 		Pois obj4_Poi = new Pois();
 		obj4_Poi.setIdPoi(4l);
 		obj4_Poi.setDescripcion("Cancha Velez");
-		obj4_Poi.setLatitud(-34.655203f);
-		obj4_Poi.setLongitud(-58.520708f);
+		obj4_Poi.setLatitud(new BigDecimal("-34.635203"));
+		obj4_Poi.setLongitud(new BigDecimal("-58.520708"));
 		obj4_Poi.setIdServicio(1l);
 		
 		Pois obj5_Poi = new Pois();
 		obj5_Poi.setIdPoi(5l);
 		obj5_Poi.setDescripcion("Bombonera");
-		obj5_Poi.setLatitud(-34.635836f);
-		obj5_Poi.setLongitud(-58.365467f);
+		obj5_Poi.setLatitud(new BigDecimal("-34.635836"));
+		obj5_Poi.setLongitud(new BigDecimal("-58.365467"));
 		obj5_Poi.setIdServicio(1l);
 		
 		Pois obj6_Poi = new Pois();
 		obj6_Poi.setIdPoi(6l);
 		obj6_Poi.setDescripcion("Ferro");
-		obj6_Poi.setLatitud(-34.618315f);
-		obj6_Poi.setLongitud(-58.447630f);
+		obj6_Poi.setLatitud(new BigDecimal("-34.618315"));
+		obj6_Poi.setLongitud(new BigDecimal("-58.447630"));
 		obj6_Poi.setIdServicio(1l);
 		
 		Pois obj7_Poi = new Pois();
 		obj7_Poi.setIdPoi(7l);
 		obj7_Poi.setDescripcion("Obelisco");
-		obj7_Poi.setLatitud(-34.600328f);
-		obj7_Poi.setLongitud(-58.381916f);
+		obj7_Poi.setLatitud(new BigDecimal("-34.600328"));
+		obj7_Poi.setLongitud(new BigDecimal("-58.381916"));
 		obj7_Poi.setIdServicio(2l);
 		
 		Pois obj8_Poi = new Pois();
 		obj8_Poi.setIdPoi(7l);
 		obj8_Poi.setDescripcion("Cabildo");
-		obj8_Poi.setLatitud(-34.670445f);
-		obj8_Poi.setLongitud(-58.390443f);
+		obj8_Poi.setLatitud(new BigDecimal("-34.670445"));
+		obj8_Poi.setLongitud(new BigDecimal("-58.390443"));
 		obj8_Poi.setIdServicio(2l);
 		
 		Pois obj9_Poi = new Pois();
 		obj9_Poi.setIdPoi(7l);
 		obj9_Poi.setDescripcion("plaza de mayo");
-		obj9_Poi.setLatitud(-34.608075f);
-		obj9_Poi.setLongitud(-58.372262f);
+		obj9_Poi.setLatitud(new BigDecimal("-34.608075"));
+		obj9_Poi.setLongitud(new BigDecimal("-58.372262"));
 		obj9_Poi.setIdServicio(2l);
 		
 		Pois obj10_Poi = new Pois();
 		obj10_Poi.setIdPoi(7l);
 		obj10_Poi.setDescripcion("convento santo domingo");
-		obj10_Poi.setLatitud(-34.612297f);
-		obj10_Poi.setLongitud(-58.371885f);
+		obj10_Poi.setLatitud(new BigDecimal("-34.612297"));
+		obj10_Poi.setLongitud(new BigDecimal("-58.371885"));
 		obj10_Poi.setIdServicio(2l);
 		
 		Pois obj11_Poi = new Pois();
 		obj11_Poi.setIdPoi(7l);
 		obj11_Poi.setDescripcion("convento san francisco");
-		obj11_Poi.setLatitud(-34.610231f);
-		obj11_Poi.setLongitud(-58.371763f);
+		obj11_Poi.setLatitud(new BigDecimal("-34.610231"));
+		obj11_Poi.setLongitud(new BigDecimal("-58.371763"));
 		obj11_Poi.setIdServicio(2l);
 		
 		Pois obj12_Poi = new Pois();
 		obj12_Poi.setIdPoi(7l);
 		obj12_Poi.setDescripcion("cafe de los angelitos");
-		obj12_Poi.setLatitud(-34.610231f);
-		obj12_Poi.setLongitud(-58.371763f);
+		obj12_Poi.setLatitud(new BigDecimal("-34.610231"));
+		obj12_Poi.setLongitud(new BigDecimal("-58.371763"));
 		obj12_Poi.setIdServicio(2l);
 		
 		
@@ -203,32 +203,32 @@ public class ControladorPOIs {
 		
 			obj7_Poi.setIdPoi(7l);
 			obj7_Poi.setDescripcion("Obelisco");
-			obj7_Poi.setLatitud(-34.600328f);
-			obj7_Poi.setLongitud(-58.381916f);
+			obj7_Poi.setLatitud(new BigDecimal("-34.600328"));
+			obj7_Poi.setLongitud(new BigDecimal("-58.381916"));
 			obj7_Poi.setIdServicio(2l);
 			
 			obj8_Poi.setIdPoi(7l);
 			obj8_Poi.setDescripcion("Cabildo");
-			obj8_Poi.setLatitud(-34.670445f);
-			obj8_Poi.setLongitud(-58.390443f);
+			obj8_Poi.setLatitud(new BigDecimal("-34.670445"));
+			obj8_Poi.setLongitud(new BigDecimal("-58.390443"));
 			obj8_Poi.setIdServicio(2l);
 			
 			obj9_Poi.setIdPoi(7l);
 			obj9_Poi.setDescripcion("plaza de mayo");
-			obj9_Poi.setLatitud(-34.608075f);
-			obj9_Poi.setLongitud(-58.372262f);
+			obj9_Poi.setLatitud(new BigDecimal("-34.608075"));
+			obj9_Poi.setLongitud(new BigDecimal("-58.372262"));
 			obj9_Poi.setIdServicio(2l);
 			
 			obj10_Poi.setIdPoi(7l);
 			obj10_Poi.setDescripcion("convento santo domingo");
-			obj10_Poi.setLatitud(-34.612297f);
-			obj10_Poi.setLongitud(-58.371885f);
+			obj10_Poi.setLatitud(new BigDecimal("-34.612297"));
+			obj10_Poi.setLongitud(new BigDecimal("-58.371885"));
 			obj10_Poi.setIdServicio(2l);
 			
 			obj11_Poi.setIdPoi(7l);
 			obj11_Poi.setDescripcion("convento san francisco");
-			obj11_Poi.setLatitud(-34.610231f);
-			obj11_Poi.setLongitud(-58.371763f);
+			obj11_Poi.setLatitud(new BigDecimal("-34.610231"));
+			obj11_Poi.setLongitud(new BigDecimal("-58.371763"));
 			obj11_Poi.setIdServicio(2l);
 			
 			listaPois = new ArrayList<Pois>();
