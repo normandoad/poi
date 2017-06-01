@@ -33,4 +33,15 @@ public class TestPoisMasCercanos {
         
         Assert.assertEquals(-1, intIndex);
 	}
+	
+	@Entonces("el servicio devuelve el resultado vacío")
+	public void devuelveElMasCercano2(){
+			Assert.assertEquals("", resultado);
+	}
+	
+	
+	@Entonces("el servicio devuelve el error: (.*)")
+	public void devuelveElMasCercano2(String error){
+			Assert.assertEquals(error, resultado);
+	}
 }
