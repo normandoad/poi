@@ -63,13 +63,16 @@ public class ControladorPOIs {
 			
 			Double distancia=Double.POSITIVE_INFINITY;
 			Pois poiMasCercano=null;
-			
+			try{
 			for (Pois pois : listaPois) {
 				Double distanciaCalculada=this.distanciaCoord(pois.getLatitud().doubleValue(), pois.getLongitud().doubleValue(), new Double(latitud.replace(",", ".") ), new Double(longitud.replace(",", ".")));
 				if(distanciaCalculada.doubleValue()<distancia.doubleValue()){
 					distancia=new Double(distanciaCalculada);
 					poiMasCercano=pois;
 				}
+			}
+			}catch(Exception e){
+				return"Error en el ingreso de Datos de posición";
 			}
 			
 			
