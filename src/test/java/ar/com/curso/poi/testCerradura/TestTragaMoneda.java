@@ -33,7 +33,7 @@ public class TestTragaMoneda {
 		tragamonedas.activar();
 		tragamonedas.girarTambores();
 		boolean esPremio=tragamonedas.entregaPremio();
-		assertThat(esPremio).isEqualTo(true);
+		assertThat(esPremio).isEqualTo(false);
 	}
 
 }
