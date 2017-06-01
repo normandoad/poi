@@ -5,15 +5,11 @@ import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Assert;
 
-import com.google.gson.Gson;
-
-import ar.com.curso.poi.entities.dao.entities.Pois;
 import ar.com.curso.poi.service.ControladorPOIs;
 import cucumber.api.DataTable;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
-import gherkin.lexer.Da;
 
 public class TestPoisMasCercanos {
 	
