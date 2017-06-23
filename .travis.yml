@@ -13,4 +13,4 @@ install:
 - mvn dependency:go-offline
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean install -Dmaven.test.failure.ignore=true verify site sonar:sonar 
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install -Dmaven.test.skip sonar:sonar 
