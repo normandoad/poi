@@ -1,5 +1,10 @@
 language: java
 
+addons:
+  sonarcloud:
+    organization: "normandoad-github" # the key of the org you chose at step #3
+    token:
+      secure: 324f6deb4acd35e531420cfb422e2a9b8ed28d8d # encrypted value of your token
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install -Dmaven.test.skip sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=324f6deb4acd35e531420cfb422e2a9b8ed28d8d -Dsonar.organization=normandoad-github
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install -Dmaven.test.skip sonar:sonar 
