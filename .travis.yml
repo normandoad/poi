@@ -1,16 +1,11 @@
 language: java
 
-cache:
-  directories:
-  - "$HOME/.m2/repository"
-  - "$HOME/.sonar/cache"
 addons:
-  sonarqube:
+  SonarCloud:
     organization: "normandoad-github" # the key of the org you chose at step #3
     token:
       secure: 324f6deb4acd35e531420cfb422e2a9b8ed28d8d # encrypted value of your token
-install:
-- mvn dependency:go-offline
+
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install -Dmaven.test.skip sonar:sonar 
