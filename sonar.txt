@@ -1,1 +1,5 @@
 mvn clean install -Dmaven.test.skip sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=324f6deb4acd35e531420cfb422e2a9b8ed28d8d -Dsonar.organization=normandoad-github
+
+git add .
+git commit -a -m "commit" (do not need commit message either)
+git push
